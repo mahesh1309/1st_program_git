@@ -11,3 +11,12 @@ f=open("Mahesh.txt","r")
 print(f.read())
 f.close()
 
+#for binary file
+k=open("1.JPG","rb")
+k1=open("govind1.JPG","wb")
+for i in k:
+    k1.write(i)
+k.close()
+k1.close()
+
+
